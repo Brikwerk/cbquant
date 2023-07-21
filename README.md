@@ -27,7 +27,7 @@ pip install git+https://github.com/Brikwerk/cbquant
 
 ## Usage
 
-Compress a single .cbz file (called `test.cbz`) to 2 colors for grayscale images and 4 colours for color images:
+Compress a single .cbz file (called `test.cbz`) to 2 colors for grayscale images and 4 colors for color images:
 
 ```bash
 cbquant test.cbz --ncolors 2 --color_ncolors 4
