@@ -19,10 +19,10 @@ From PyPi:
 pip install cbquant
 ```
 
-From Github:
+From the Github `main` branch:
 
 ```bash
-pip install -e git+https://github.com/Brikwerk/cbquant
+pip install git+https://github.com/Brikwerk/cbquant
 ```
 
 ## Usage
