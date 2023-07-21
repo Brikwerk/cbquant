@@ -30,13 +30,13 @@ pip install git+https://github.com/Brikwerk/cbquant
 Compress a single .cbz file (called `test.cbz`) to 2 colors for grayscale images and 4 colours for color images:
 
 ```bash
-python cbquant.py test.cbz --ncolors 2 --color_ncolors 4
+cbquant test.cbz --ncolors 2 --color_ncolors 4
 ```
 
 Compress a directory of comic book archive files and output all compressed files to a new folder:
 
 ```bash
-python cbquant.py "/path/to/files/*" --ncolors 2 --color_ncolors 4 --height 1872 --output ./quant
+cbquant "/path/to/files/*" --ncolors 2 --color_ncolors 4 --height 1872 --output ./quant
 ```
 
 ## Acknowledgements
